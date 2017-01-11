@@ -40,11 +40,11 @@ BOARD_CUSTOM_BOOTIMG_MK := device/lge/w7/mkbootimg.mk
 TARGET_KERNEL_CONFIG := stormysea_defconfig
 
 # Optimizations
-CLANG_O3 := true
-STRICT_ALIASING := false
-KRAIT_TUNINGS := false
-GRAPHITE_OPTS := false
-ENABLE_GCCONLY := true
+#CLANG_O3 := true
+#STRICT_ALIASING := false
+#KRAIT_TUNINGS := false
+#GRAPHITE_OPTS := false
+#ENABLE_GCCONLY := true
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
